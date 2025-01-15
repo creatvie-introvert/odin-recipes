@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 2px solid red;
+}
+
+html {
+    font-family: sans-serif;
+    
+}
+
+body {
+    font-size: 16px;
+    color: #343A40;
+    background-color: #F8F9FA;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #343A40;
+    margin: 40px;
+}
+
+.bg-img {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://kansaslivingmagazine.com/sites/default/files/gettyimages-1181593460.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    display: inline-block;
+}
+
+.nav-link {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 40px;
+}
